@@ -3,74 +3,7 @@
  * @author Lifix#9999
  * @version 1.0.0
  * @description Brings back the old (good) Discord font.
- * @source https://github.com/iAmSpace/BD-Addons/blob/main/themes/WhitneyRevive.theme.css
+ * @source https://github.com/iAmSpace/BD-Addons/blob/main/themes/WhitneyRevive/WhitneyRevive.main.css
 */
 
-@font-face {
-    font-family:whitney;
-    font-style:normal;
-    font-weight:500;
-    src:local('Whitney'),url(https://github.com/iAmSpace/BD-Addons/raw/main/themes/WhitneyRevive/whitneymedium.woff) format('woff')
-}
-
-@font-face {
-    font-family:whitney;
-    font-style:italic;
-    font-weight:500;
-    src:local('Whitney'),url(https://github.com/iAmSpace/BD-Addons/raw/main/themes/WhitneyRevive/whitneymediumitalic.woff) format('woff')
-}
-
-@font-face {
-    font-family:whitney;
-    font-style:normal;
-    font-weight:700;
-    src:local('Whitney'),url(https://github.com/iAmSpace/BD-Addons/raw/main/themes/WhitneyRevive/whitneybold.woff) format('woff')
-}
-
-@font-face {
-    font-family:whitney semibold;
-    font-style:normal;
-    font-weight:500;
-    src:local('Whitney Semibold'),url(https://github.com/iAmSpace/BD-Addons/raw/main/themes/WhitneyRevive/whitneysemibold.woff) format('woff')
-}
-
-@font-face {
-    font-family:whitney book;
-    font-style:normal;
-    font-weight:500;
-    src:local('Whitney Book'),url(https://github.com/iAmSpace/BD-Addons/raw/main/themes/WhitneyRevive/whitneybook.woff) format('woff')
-}
-
-@font-face {
-    font-family:whitney light;
-    font-style:normal;
-    font-weight:500;
-    src:local('Whitney Light'),url(https://github.com/iAmSpace/BD-Addons/raw/main/themes/WhitneyRevive/whitneylight.woff) format('woff')
-}
-
-@font-face {
-    font-family:whitney semibold;
-    font-style:italic;
-    font-weight:500;
-    src:local('Whitney Semibold'),url(https://github.com/iAmSpace/BD-Addons/raw/main/themes/WhitneyRevive/WhitneySemiboldItalic.woff) format('woff')
-}
-
-@font-face {
-    font-family:whitney book;
-    font-style:italic;
-    font-weight:500;
-    src:local('Whitney Book'),url(https://github.com/iAmSpace/BD-Addons/raw/main/themes/WhitneyRevive/whitneybookitalic.woff) format('woff')
-}
-
-@font-face {
-    font-family:whitney light;
-    font-style:italic;
-    font-weight:500;
-    src:local('Whitney Light'),url(https://github.com/iAmSpace/BD-Addons/raw/main/themes/WhitneyRevive/whitneylightitalic.woff) format('woff')
-}
-
-:root {
-    --font-primary: "whitney book", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-display: "whitney book", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-headline: "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+@import url(https://raw.githubusercontent.com/iAmSpace/BD-Addons/main/themes/WhitneyRevive/WhitneyRevive.main.css);
