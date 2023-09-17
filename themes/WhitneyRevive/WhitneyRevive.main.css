@@ -194,6 +194,12 @@
     src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/dc407fd65057fce34a56bf7b6ebb0b9f.woff2) format("woff2")
 }
 
+@font-face {
+    font-family: Product Sans;
+    font-style: normal;
+    src: url(https://github.com/iAmSpace/BD-Addons/blob/main/themes/WhitneyRevive/ProductSans-Regular.woff) format("woff")
+}
+
 :root {
     --font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-display: "ABC Ginto Normal", "Helvetica Neue", Helvetica, Arial, sans-serif;
